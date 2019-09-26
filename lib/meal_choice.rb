@@ -1,7 +1,9 @@
 def meal_choice(veg1, veg2, protein = "meat")
-mes1 = puts "What a nutritious meal!"
-mes2 = puts "A plate of #{protein} with #{veg1} and #{veg2}."
+puts "What a nutritious meal!"
+order = "A plate of #{protein} with #{veg1} and #{veg2}."
+puts order
 
-return mes1 + mes2
+return "What a nutritious meal! #{order}"
+end
 
 meal_choice("broccoli", "macaroni", "")
