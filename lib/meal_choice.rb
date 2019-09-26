@@ -6,4 +6,4 @@ puts order
 return "What a nutritious meal! #{order}"
 end
 
-meal_choice("broccoli", "macaroni", "")
+meal_choice("broccoli", "macaroni")
